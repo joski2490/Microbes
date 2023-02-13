@@ -5,10 +5,10 @@ export default class Microbe extends Entity {
     this.target = null
     this.targetangle = 300
     this.path = []
-    this.minsize = 2
+    this.minsize = 1
     this.size = 4
-    this.maxsize = 5
-    this.speed = 10
+    this.maxsize = 7
+    this.speed = 25
     this.fullhealth = 1500
     this.health = this.fullhealth
     this.wait = 0
